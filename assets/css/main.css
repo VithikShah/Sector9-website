@@ -2906,3 +2906,43 @@ input, select, textarea {
 			}
 
 	}
+	.mySlides{
+		max-width: 100%;
+  		height: auto;
+	}
+	
+	.slides{
+		position: relative;
+	}
+		.slidebuttonleft{
+			position: absolute;
+  			top: 55%;
+  			left: 5%;
+  			transform: translate(-50%, -50%);
+  			-ms-transform: translate(-50%, -50%);
+  			color: black;
+  			font-size: 16px;
+  			padding: 16px 30px;
+  			border: none;
+  			cursor: pointer;
+  			border-radius: 5px;
+  			float: none;
+  			display: block;
+  		text-align: center;
+		}
+		.slidebuttonright{
+			position: absolute;
+	  		top: 55%;
+	  		left: 95%;
+	  		float: none;
+  			display: block;
+	  		transform: translate(-50%, -50%);
+	  		-ms-transform: translate(-50%, -50%);
+	  		color: black;
+	  		font-size: 16px;
+	  		padding: 16px 30px;
+	  		border: none;
+	  		cursor: pointer;
+	  		border-radius: 5px;
+	  	text-align: center;
+		}

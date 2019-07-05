@@ -10,8 +10,9 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="js/slides.js"></script>
 	</head>
-	<body class="homepage is-preload">
+	<body class="homepage is-preload" onload="showDivs(1)">
 		<div id="page-wrapper">
 
 			<!-- Header -->
@@ -186,7 +187,16 @@
 									</section>
 
 							</div>
+		<div class="slides">
+				<img class="mySlides" src="images/outlet7.png">
+				<img class="mySlides" src="images/outlet4.png">
+				<img class="mySlides" src="images/outlet3.png">
+				<img class="mySlides" src="images/outlet2.png">
+				<button class="slidebuttonleft" onclick="plusDivs(-1)">&#10094;</button>
+				<button class="slidebuttonright" onclick="plusDivs(+1)">&#10095;</button>
+		</div>
 							<div class="col-12">
+
 
 								<!-- Blog -->
 									<section>
